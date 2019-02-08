@@ -99,6 +99,8 @@ window.onload = function() {
 	var p1 = new Player('left');
 	var p2 = new Player('right');
 	
+	context.font = '20px Anonymous Pro';
+
 	setInterval(function() {
 		context.fillStyle = '#000';
 		context.fillRect(0,0,canvas.width,canvas.height);
